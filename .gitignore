@@ -1,0 +1,4 @@
+perl/file.register
+perl/list_of_capabilities.txt
+perl/*.grib2
+perl/*.nc
