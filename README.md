@@ -1,6 +1,10 @@
 # IPM Decisions Weather Adapter for MeteoFrance
 This software package builds a Docker image for a location based weather service that provides 40 hour weather forecasts from MeteoFrance with a 2.5km (TODO CHECK) resolution
 
+![Map showing the covered area](./map.png "map showing the covered area")
+
+The approximate area covered by this model/service
+
 ![Example temperature map showing the covered area](./air_temp_ncview.png "Example temperature map showing the covered area")
 
 Example temperature map (using ncview on the NetCDF file generated from the sources)
