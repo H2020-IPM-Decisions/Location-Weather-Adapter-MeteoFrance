@@ -21,8 +21,7 @@
 service apache2 start
 service cron start
 # First time download of weather data
-#su -s /bin/bash -c 'cd /opt/ipmdecisions/perl;./run > ./download.log' ipmdecisions
-su -s /bin/bash -c 'cd /opt/ipmdecisions/perl;./run' ipmdecisions
+su -s /bin/bash -c 'cd /opt/ipmdecisions/perl;./run > ./download.log' ipmdecisions
 # Start the gatekeeper process
 cd /opt/ipmdecisions/NetCDF-Location-Weather-Adapter/app
 su -s /bin/bash -c 'python3 gatekeeper.py' ipmdecisions
