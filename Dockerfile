@@ -62,7 +62,7 @@ EXPOSE 80
 
 # Add the crontab to ipm decisions
 USER ipmdecisions
-RUN echo "*/5 * * * *  cd /opt/ipmdecisions/perl; ./run > ./download_log" | crontab
+RUN echo "*/5 * * * *  cd /opt/ipmdecisions/perl; ./run > ./download.log" | crontab
 
 # Start the gatekeeper
 USER root
